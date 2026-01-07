@@ -1,0 +1,31 @@
+/* IDs sem acento */
+#pokemon {
+    position: relative;
+    padding-top: 5rem;
+    margin: 3rem 0;
+    background: url('img/172.png') top right no-repeat,
+                url('img/403.png') bottom left no-repeat;
+    background-size: 180px;
+}
+
+/* Alto contraste mais completo */
+.alto-contraste input,
+.alto-contraste textarea {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.alto-contraste ::placeholder {
+    color: #ccc;
+}
+
+/* Responsividade da imagem principal */
+@media (max-width: 992px) {
+    .img-inicio {
+        position: static;
+        width: 100%;
+        max-width: 350px;
+        margin-top: 2rem;
+    }
+}
